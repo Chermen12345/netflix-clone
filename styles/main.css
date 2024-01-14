@@ -1,0 +1,170 @@
+:root{
+    --main-color:#E50914;
+    --body-color: #232323;
+}
+
+
+body{
+    background-color: var(--body-color);
+}
+
+
+.reg-section{
+    margin: 0;
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('/assets/background.jpg');
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-box{
+    margin: 18px 0 0 170px;
+}
+.logo-title{
+    width: 140px;
+    height: 40px;
+}
+.login-box{
+    margin: 20px 170px 0 0;
+}
+.bt-login{
+    width: 67px;
+    height: 32px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    border: none;
+    
+}
+.bt-login p{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+.full-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.reg-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.main-title p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px; /* Уменьшаем размер шрифта */
+    margin-bottom: 5px; /* Уменьшаем вертикальный отступ */
+}
+
+.desc {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-top: 0; /* Убираем верхний отступ у .desc */
+}
+.email-box{
+    
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+.ed-email{
+    font-family: 'DM Sans', sans-serif;
+    height: 50px;
+    width: 350px;
+    opacity: 40%;
+    font-size: 17px;
+    background-color: black;
+    margin: 0 5px 0 70px;
+    border-radius: 5px;
+    color: #ffffff;
+    border-color: white;
+    border-width: 1px;
+}
+.bt-signin{
+    font-family: 'DM Sans', sans-serif;
+    width: 180px;
+    margin: 0 70px 0 5px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: background-color 1s;
+    cursor: pointer;
+    font-size: 20px;
+}
+.bt-signin:hover{
+    font-family: 'DM Sans', sans-serif;
+    width: 180px;
+    margin: 0 70px 0 5px;
+    transition: background-color 0.5s;
+    background-color: #af0911;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+}
+.ed-email::placeholder{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 100%;
+    
+}
+.tv-enjoy-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    background-color: black;
+    margin: 10px 0 0 0;
+}
+
+.enjoy-your-tv{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 150px 0 0 0;
+    
+}
+
+.watch-on-smart{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+.img{
+   width: 500px;
+   height: 400px; 
+}

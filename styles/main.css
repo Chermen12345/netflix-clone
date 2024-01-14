@@ -168,3 +168,24 @@ body{
    width: 500px;
    height: 400px; 
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    background-color: black;
+    margin: 10px 0 0 0;
+}
+ul li a{
+    color: #B3B3B3;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+ul li{
+    margin-top: 20px;
+
+}
